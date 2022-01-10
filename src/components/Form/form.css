@@ -1,0 +1,38 @@
+.form {
+  margin: 40px auto;
+  width: 350px;
+  padding: 30px;
+  background: white;
+  box-shadow: 3px 2px 29px -14px black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.form input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px 15px;
+}
+
+.form__label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.form__btn {
+  padding: 9px 25px;
+  border: none;
+  background: cornflowerblue;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form__btn:hover {
+  background: slateblue;
+}
